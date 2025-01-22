@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+    - name: jaffle_shop
+      schema: DBT_PROJECT
+
+      tables:
+        - name: raw_customers
+        - name: raw_orders
